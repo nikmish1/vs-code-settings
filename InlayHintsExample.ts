@@ -4,7 +4,7 @@ type User = {
 };
 
 function greet(user: User, excited: boolean) {
-  const message = `Hello from Earth...., ${user.name}`;
+  const message = `Hello from Moon...., ${user.name}`;
   return excited ? `${message}!!!` : message;
 }
 
