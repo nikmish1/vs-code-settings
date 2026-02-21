@@ -11,7 +11,7 @@ function greet(user: User, excited: boolean) {
 const user = { id: 1, name: 'Nikhil' };
 const result = greet(user, true);
 
-const scores = [1, 2, 3].map((n) => n * 2);
+const scores = [1, 2, 3, 4].map((n) => n * 2);
 
 enum Status {
   Draft,
